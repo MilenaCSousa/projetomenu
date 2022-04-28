@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+    height: 100%;
+    min-width: 80px;
+    background-color: blueviolet;
+    position: fixed;
+    transition: 1s;
+}
+li{
+    height: 60px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+li p{
+    margin-left: 20px;
+}
